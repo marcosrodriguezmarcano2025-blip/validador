@@ -17,14 +17,17 @@
             <i class="fa-solid fa-staff-aesculapius text-9xl text-teal-500"></i>
         </div>
 
-        <!-- Encabezado Institutional -->
-        <div class="text-center border-b border-slate-800 pb-5 mb-6">
-            <div class="w-14 h-14 bg-gradient-to-tr from-teal-600 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg shadow-teal-600/20">
-                <i class="fa-solid fa-staff-aesculapius text-2xl text-white"></i>
-            </div>
-            <h1 class="text-lg font-bold tracking-wider text-white">FUNDACIÓN <span class="text-teal-500">MAVAI</span></h1>
-            <p class="text-[10px] text-slate-400 font-medium tracking-widest uppercase mt-0.5">Sistema de Validación de Personal</p>
-        </div>
+        <!-- Encabezado Institucional con LOGO -->
+<div class="text-center border-b border-slate-800 pb-5 mb-6">
+    <!-- Intenta cargar el logo. Si no existe, oculta la etiqueta rota -->
+    <img src="https://marcosrodriguezmarcano2025-blip.github.io/validador/logo.png" 
+         onerror="this.style.display='none';" 
+         alt="Logo Fundación MAVAI" 
+         class="h-16 mx-auto mb-3 object-contain">
+    
+    <h1 class="text-lg font-bold tracking-wider text-white">FUNDACIÓN <span class="text-teal-500">MAVAI</span></h1>
+    <p class="text-[10px] text-slate-400 font-medium tracking-widest uppercase mt-0.5">Sistema de Validación de Personal</p>
+</div>
 
         <!-- Estado de la Consulta -->
         <div id="loadingState" class="text-center py-8">
